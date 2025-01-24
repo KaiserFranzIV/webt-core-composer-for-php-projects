@@ -1,0 +1,18 @@
+{
+    "name": "bernh/qr-code",
+    "autoload": {
+        "psr-4": {
+            "Bernh\\QrCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KaiserFranzIV",
+            "email": "bmattausch2@gmail.com"
+        }
+    ],
+    "require": {
+        "endroid/qrcode": "^6.0",
+        "endroid/qr-code": "^6.0"
+    }
+}
