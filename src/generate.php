@@ -8,7 +8,7 @@ use Endroid\QrCode\Label\Font\OpenSans;
 use Endroid\QrCode\RoundBlockSizeMode;
 use Endroid\QrCode\Writer\PngWriter;
 
-$telNo = isset($_GET["telNo"]) ? $_GET["telNo"] : '';
+$telNo = isset($_GET['telNo']) ? $_GET['telNo'] : '';
 
 $builder = new Builder(
     writer: new PngWriter(),
